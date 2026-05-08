@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #dce6ff; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1d4ed8; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1e40af;  
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #1d4ed8 #dce6ff;
+}
+
+.active {
+  color: rgb(250 204 21 / 1);
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+.menu-enter {
+  animation: slideIn 0.3s forwards;
+}
+
+.menu-exit {
+  animation: slideOut 0.3s forwards;
+}

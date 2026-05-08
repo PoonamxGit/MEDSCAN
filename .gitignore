@@ -1,0 +1,12 @@
+client/node_modules
+client/.env
+server/__pycache__
+server/Models/__pycache__
+1.jpg
+2.jpg
+3.jpg
+4.jpg
+server\Models\data\eye_weights.h5
+server\Models\data\pneumonia_weights.h5
+server\Models\data\skin_weights.h5
+server/venv/
