@@ -22,13 +22,6 @@ const team = [
     envKey: 'VITE_CHARU',
     color: 'indigo',
   },
-  {
-    name: 'Yash',
-    role: 'Team Member',
-    initials: 'YA',
-    envKey: 'VITE_YASH',
-    color: 'teal',
-  },
 ];
 
 const colorMap = {
