@@ -24,6 +24,7 @@ MedScan is an advanced web application that leverages AI to provide automated de
 - **User-Friendly Interface:** Clean and intuitive UI for easy navigation and usage.
 - **AI-Powered Medical Guidance:** Provides precautions, possible treatments, and medication suggestions based on the detected condition.
 - **Integrated AI Chatbot:** Includes an intelligent medical chatbot powered by the Groq API to answer health-related queries and assist users interactively.
+- **Downloadable Medical Reports:** Users can download AI-generated diagnostic reports in PDF format for future reference and sharing.
 - **User-Friendly Interface:** Clean and intuitive UI for easy navigation and usage.
 
 ## Project Structure
@@ -31,6 +32,19 @@ MedScan is an advanced web application that leverages AI to provide automated de
 - **Frontend:** React, Vite, Tailwind CSS, CSS.
 - **Backend:** FastAPI.
 - **Model Training:** Python, TensorFlow/Keras, OpenCV.
+
+## Output
+### Pneumonia Detection Result
+<img width="1016" height="787" alt="image" src="https://github.com/user-attachments/assets/5ae9d436-6457-4065-9f23-ef4dcaf85146" />
+
+### Eye Disease Detection Result
+<img width="1843" height="863" alt="image" src="https://github.com/user-attachments/assets/d5c82f37-3525-4e50-b621-0a8972c66d53" />
+
+### Skin Disease Detection Result
+<img width="1010" height="785" alt="image" src="https://github.com/user-attachments/assets/750b9281-630b-4bb3-af36-92a972b009b7" />
+
+### AI Chat Bot
+<img width="528" height="747" alt="image" src="https://github.com/user-attachments/assets/36136ea7-3fb5-4c19-8cb0-6f3e4d9cc8f1" />
 
 ## Installation
 
@@ -109,7 +123,7 @@ VITE_GROQ_API_KEY=your_groq_api_key
 1. Navigate to the frontend URL provided by Vite (usually `http://127.0.0.1:5173`).
 2. Use the navigation bar to access different sections: Home, Services, About, and Contact Us.
 3. In the Services section, choose the type of medical analysis you want to perform.
-4. Upload the relevant medical image and click "Get Started" to see the results.
+4. Upload the relevant medical image and click "Predict" to see the results.
 
 ## Contributing
 
