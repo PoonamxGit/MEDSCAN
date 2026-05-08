@@ -22,6 +22,9 @@ MedScan is an advanced web application that leverages AI to provide automated de
 - **Eye Disease Detection:** Diagnose various eye conditions using advanced image analysis.
 - **Skin Disease Detection:** Identify different skin diseases through AI-powered analysis.
 - **User-Friendly Interface:** Clean and intuitive UI for easy navigation and usage.
+- **AI-Powered Medical Guidance:** Provides precautions, possible treatments, and medication suggestions based on the detected condition.
+- **Integrated AI Chatbot:** Includes an intelligent medical chatbot powered by the Groq API to answer health-related queries and assist users interactively.
+- **User-Friendly Interface:** Clean and intuitive UI for easy navigation and usage.
 
 ## Project Structure
 
@@ -39,7 +42,7 @@ MedScan is an advanced web application that leverages AI to provide automated de
 ### Clone the Repository
 
 ```sh
-git clone https://github.com/ABHAY-05/MEDSCAN.git
+git clone https://github.com/Pragya225/MEDSCAN.git
 cd medscan
 ```
 
@@ -98,10 +101,7 @@ Create a `.env` file in the root of the `client` directory and add the following
 VITE_URL
 VITE_PHONE
 VITE_EMAIL
-VITE_TEAM1
-VITE_TEAM2
-VITE_TEAM3
-VITE_TEAM4
+VITE_GROQ_API_KEY=your_groq_api_key
 ```
 
 ## Usage
@@ -117,5 +117,4 @@ Contributions are welcome! Please create a pull request or open an issue to disc
 
 ## Contact
 
-- **Project Repository:** [MedScan](https://github.com/ABHAY-05/MEDSCAN.git)
-- **Email:** abhayvermajune5@gmail.com
+- **Project Repository:** [MedScan](https://github.com/Pragya225/MEDSCAN.git)
