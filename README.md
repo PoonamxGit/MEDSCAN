@@ -56,7 +56,7 @@ MedScan is an advanced web application that leverages AI to provide automated de
 ### Clone the Repository
 
 ```sh
-git clone https://github.com/Pragya225/MEDSCAN.git
+git clone https://github.com/PoonamxGit/MEDSCAN.git
 cd medscan
 ```
 
@@ -131,4 +131,4 @@ Contributions are welcome! Please create a pull request or open an issue to disc
 
 ## Contact
 
-- **Project Repository:** [MedScan](https://github.com/Pragya225/MEDSCAN.git)
+- **Project Repository:** [MedScan](https://github.com/PoonamxGit/MEDSCAN.git)
